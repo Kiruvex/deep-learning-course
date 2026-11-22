@@ -1,0 +1,11 @@
+# 从零到 Transformer：手写深度学习课程 · 依赖
+# Python >= 3.10, CPU 即可
+
+marimo>=0.13
+numpy>=1.26
+matplotlib>=3.8
+
+# —— 以下依赖在后续课程中才会用到，现在无需安装 ——
+# scikit-learn>=1.3        # 第 3 部分对比实验使用
+# torch>=2.2               # 仅第 8 部分（最后 3 课）需要，装 CPU 版即可：
+#                          #   pip install torch --index-url https://download.pytorch.org/whl/cpu
